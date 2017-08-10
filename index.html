@@ -9,7 +9,82 @@
     <title>Friends Character</title>
   </head>
   <body>
-    <h1>Quiz:Which friends character are you</h1>
-
+    <div class="container">
+      <h1>Quiz:Which friends character are you</h1>
+      <h2>Start by telling us if you are a man or a woman</h2>
+      <form id="friendsGender">
+        <div class="radio">
+          <label>
+            <input type="radio" name="gender" value="Female" checked>
+            Female
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="gender" value="Male">
+            Male
+          </label>
+        </div>
+        <button type="submit" class="btn">Go!</button>
+      </form>
+      <form id="guysForm" class="" action="index.html" method="post">
+        <p>Do you have a good job?</p>
+        <select class="form-control" id="goodJob">
+          <option>yes</option>
+          <option>no</option>
+        </select>
+        <p>Are you roommates with another one of the Friends?</p>
+        <select class="form-control" id="roommates">
+          <option>yes</option>
+          <option>no</option>
+        </select>
+        <button type="submit" class="btn">Go!</button>
+      </form>
+      <form id="girlsForm" class="" action="index.html" method="post">
+        <p>Are you in to Chandler?</p>
+        <select class="form-control" id="chandler">
+          <option>yes</option>
+          <option>no</option>
+        </select>
+        <p>Did you grow up with one of the other Friends?</p>
+        <select class="form-control" id="grewUpTogether">
+          <option>yes</option>
+          <option>no</option>
+        </select>
+        <button type="submit" class="btn">Go!</button>
+      </form>
+      <div class="character" id="ross">
+        <h3>You are Ross Gellar!</h3>
+        <img src="img/ross.jpg">
+      </div>
+      <div class="character" id="monica">
+        <h3>You are Monica Gellar!</h3>
+        <img src="img/monica.jpg">
+      </div>
+      <div class="character" id="chandler">
+        <h3>You are Chandler Bing!</h3>
+        <img src="img/chandler.gif">
+      </div>
+      <div class="character" id="joey">
+        <h3>You are Joey Tribiani!</h3>
+        <img src="img/joey.jpg">
+      </div>
+      <div class="character" id="phoebe">
+        <h3>You are Phoebe Boofay!</h3>
+        <img src="img/phoebe.jpg">
+      </div>
+      <div class="character" id="rachel">
+        <h3>You are Rachel Green!</h3>
+        <img src="img/rachel.jpg">
+      </div>
+      <div class="character" id="janice">
+        <h3>You are Janice!</h3>
+        <img src="img/janice.jpg">
+      </div>
+      <div class="character" id="gunther">
+        <h3>You are Gunther!</h3>
+        <img src="img/gunther.jpg">
+      </div>
+    </div>
   </body>
 </html>
