@@ -21,3 +21,18 @@ good job/ bad job     Are you into chandler*/
 img {
   width: 70%;
 }
+#guysForm, #girlsForm, .character{
+  display: none;
+}
+h1{
+  text-align: center;
+}
+.jumbotron{
+  background-color: #d1c936;
+}
+#img1{
+  width: 100%;
+}
+.container {
+  background-color: #b6b8db;
+}
